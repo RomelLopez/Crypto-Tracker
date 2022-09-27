@@ -57,7 +57,7 @@ coin-volume {
 }
 
 .coin-percent {
-    width: 80px;
+    width: 220px;
 }
 
 .red {
@@ -116,21 +116,41 @@ coin-volume-title {
     width: 80px;
 }
 
+.display-based {
+    display: none;
+}
+
 
 @media screen and (max-width: 768px) {
     .coin-row {
         display: flex;
         flex-direction: column;
-        height: 180px;
+        height: 100%;
         width: 100%;
+        margin-top: 20px;
     }
 
     .coin-data {
         flex-direction: column;
     }
 
+    .coin-data p {
+        margin: 10px;
+    }
+
     .coin-row-title {
         display: none;
+    }
+
+    .display-based {
+        display: inline-block;
+    }
+
+    .coin-symbol {
+        border: 2px solid green;
+        border-radius: 10px;
+        padding: 7px;
+        background-color: #0aaa0a;
     }
 
 }
