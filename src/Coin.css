@@ -10,7 +10,7 @@
     align-items: center;
     height: 80px;
     border-bottom: 1px solid white;
-    width: 900px;
+    width: 1000px;
 }
 
 .coin {
@@ -56,9 +56,7 @@ coin-volume {
     width: 240px;
 }
 
-.coin-percent {
-    width: 220px;
-}
+
 
 .red {
     color: #f00606
@@ -75,7 +73,7 @@ coin-volume {
     align-items: center;
     height: 80px;
     border-bottom: 1px solid white;
-    width: 900px;
+    width: 1000px;
 }
 
 .coin-title {
@@ -121,7 +119,7 @@ coin-volume-title {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1014px) {
     .coin-row {
         display: flex;
         flex-direction: column;
